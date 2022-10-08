@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{background-color: #e6e1d3a4;}
+h1{text-align: center
+    ;color: #5f522d;
+font-size: 2em;}
+h2{font-size: 1.5em;
+color: #B38E22;
+text-align: right;}
+h3{color: #af8a1c;
+font-size: 1.2em;
+text-align: center;}
+p{text-align: center;}
+.esp{text-align: right;}
+div{text-align: center;}
+    div>p{display: none;}
+div:hover>p{display: block;
+    display: inline-block;
+height: 50;
+width: 200;
+color: blue;
+}
+span{font-size: 1.2em;}

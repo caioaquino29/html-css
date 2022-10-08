@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body{ background-color: #84E0AD;
+    margin: 0px;
+font-family: Arial, Helvetica, sans-serif ;}
+
+header{height: 200px;color: white; background-image: linear-gradient(to top,#154a2d,#1A5C38 ,#227645 ,#2B995C, #34BE71) ;box-shadow: 1px 1px 3px #0b2517;}
+
+#heatitu{ width: 100%;;margin: 0px;text-align: center;text-transform: uppercase;
+    padding: 20px 0px 0px 0px ;
+font-family:'Bebas Neue', cursive;font-size: 3em;font-weight: normal;text-shadow: 1px 1px 3px #0b251775;}
+
+.phea{text-align: center;font-size: 1.2em;}
+
+.lin{display: inline-block; padding: 8px;}
+
+#nlis{ padding: 0px;margin: 20px 0px 0px 0px ;}
+
+main{background-color: white; margin: auto; min-width: 320px;max-width: 800px; }
+img{ width: 100%;}
+.artim1{ width: 65%;}
+
+section{ box-shadow: 4px 4px 20px 1px #0b25175c;border-radius: 0px 0px 15px 15px; text-align: justify;}
+
+strong{color:#29ac5f;}
+
+p{text-indent: 20px;margin: 0px; font-weight: bold;}
+
+#sectitu{ font-family:'iDroid',sans-serif ;font-size: 2em;margin: 0; color: #154a2d; padding: 10px 10px;}
+
+#artitu1{font-family:'iDroid',sans-serif ;}
+#artitu2{font-family: 'iDroid',sans-serif;}
+.psec1{padding: 10px 10px ;}
+article{padding: 10px 10px;}
+
+h2{ color: #154a2d;background-image:linear-gradient(to right,#34be7269, #34be7238, #34be7212, #34be7200) ;}
+
+.video{background-color: #0b2517;padding: 50px;}
+
+.quadro{ margin: 0px 15px  ;padding: 10px ; background-color: #34be72c1;border-radius: 0px 0px 8px 8px ;box-shadow: 3px 3px 8px 3px #1a2e231a; ;}
+
+#asititu{ ;margin: 15px 15px 0px 15px; background-color: #2B995C; padding: 10px 5px ;border-radius: 8px 8px 0px 0px ;color: white;
+}
+.ul{ display: inline-block; height: 135px ; width: 300px ;margin: 0px;}
+.asilist1{padding: 0px 20px; }
+.ulasilist2{ padding: ;}
+
+article{border-radius: 0px 0px 15px 15px;}
+.psec2{padding: 15px;}
+
+
+
+footer{background-color: #154a2d; margin: 15px 0px 0px 0px;}
+.pfoo{ margin: 0px;padding:10px ;color: white;font-size: 0.8em;text-align: center;}

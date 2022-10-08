@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento de Texto</title>
+    <style>
+        body{font:1em Arial,Helvetica, sans-serif;}
+        /* Para usar "font:" é necessario no minimo dois atributos do font: (style, weight, size, e family) Obs: quando colocamos os atributo como exemplo acima não usamos ,(virgular) para separa.*/
+        h1{font: bold 3em Arial,Helvetica, sans-serif;text-align: center;}
+        h2{font: italic bolder 1.5em Arial,Helvetica, sans-serif;
+        text-align: left;}
+        /* veja acima left á esqueda já é padrão */
+        p{text-align: justify;
+        text-indent: 20px;}
+        code{font-size: 1.09em ;color:rgb(1, 121, 121)
+             ; ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alinhamento de Texto</h1>
+    <h2>Como alinhar?</h2>
+    <p>Não usama tags de HTML para alinhhar texto como por exemplo: <code>"center."</code> Devemos usa folha de estilos de CSS para alinhar o nosso texto usando por exemplo:
+    <code>"text-align:right;"</code>(alem das outra propiedade "left" "center" "justify"). Assim faz alinhamento mas quando queremos indicar que novo paragrafo com espaço do inicio de paragrafo temos que usar <code>"text-indent:20px"</code>ou seja espaço é determinado pelo numero de pixel (px.</p>
+</body>
+</html>

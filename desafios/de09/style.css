@@ -1,0 +1,31 @@
+@charset "UTF-8"; 
+*{margin: 0px;
+    padding: 0px;}
+    div {height: 550px;padding-top:20px ;
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+font-weight: bold;
+background-color: black;
+color: white;
+text-align: center;
+}
+h1{margin-bottom: 20px ;}
+.umg{display: inline;}
+.doisg{display: block;
+padding-top: 2px;}
+.pagina{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+p{margin: 20px 0px ;}
+
+a{text-decoration: none;
+color: white;}
+a>img:hover{ border: 3px solid rgba(243, 227, 50, 0.888); }
+a>p:hover{text-decoration: underline;}

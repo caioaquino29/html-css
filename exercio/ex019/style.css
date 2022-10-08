@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8174f793;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{ font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    text-align: center;
+    color:#94882F ;
+
+}
+.sub{font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: right;
+    background-color: #94882F;
+
+}
+.tema1{color:#5C10FA ; font-size: 1.2em;
+}
+.tema2{color: #470CC7; font-size: 1.5em; text-align: center;
+}
+.tema3{color: #2C077A; font-size: 1.8em; text-align: right;
+}
+.destaque{ background-color: #DEC866;}
+.paragrafo{font-variant: small-caps;}
+h1{
+    color: #4D19FA;
+}
+h2{
+    color: #682EF0;
+}

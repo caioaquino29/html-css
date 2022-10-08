@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap');
+        body{ font-family: Arial, Helvetica, sans-serif; }
+        h1{font-family: 'Lobster';font-size: 3em;}
+        code{text-decoration: underline blue;}
+    /* podemos ver que propio VScode da combinação segura pois se obsetivo e monoespaçada (monospace) ele já indica qual melhor opção 
+    1.Courier New', 
+    2.Courier, 
+    3.monospace */
+    </style>
+    <!-- 
+        *Medidas absolutas: cm, mm, in (polegada), px (tamanho por pixel), pt (ponto usado no word visto que mas ultilizado em elemento fisico visto que usamoos word para imprimir ), pc
+    * Medidas relativas: em (  baseia altura da letra m), ex, rem, vw,  vh, e %
+As recomendavel são "px" ou "em" (16px = 1em). -->
+<!-- "shorthand" (simplificam as coisa ) em vez de escrever   
+{4.font-family:Ariel
+3.font-size:1em
+1.font-style:italico
+2.font-weight:bold} 
+{font:1)italico, 2)bold, 3)1em,4) Ariel (tem que ser nessa sequência)}-->
+</head>
+<body><h1>
+    Trabalhando com Fontes
+</h1>
+<P>É importante entender que nem todos os dispositivos como smartphone ou smarttvs vão ter todas as fontes que exitem e podemos  escolher para usar nosso site uma fonteque não tenha em alguns disponivel por exemplo suponha que usemos <code>font-family:"Helvetica"</code> (que fonte sem sarifa ou sans-serif) para evitar inconsistencias podemos fazer o seguite <code>font-family: "Ariel", "Helvetica","sans-sarif"</code> ou seja vai buscar fonte Ariel se não tiver vai pra proxima Helvetica e não tiver nem essa sistema vai usar outra fonte disponivel que não tenha Serifa (sans-sarif)</P>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+div{ background-color: aquamarine;
+    display: inline-block;
+    text-align: center;
+        width: 150px;
+        height: 150px;
+        border:1px solid black;
+        padding: 5px;
+        ;
+    
+    }
+    .pri>audio{display: none;}
+    .pri:hover>audio{display: block;}
+    .seg>audio{display: none;}
+    .seg:hover>audio{display: block;}
+    .ter>audio{display: none;}
+    .ter:hover>audio{display: block;}
+    .pri:hover {background-color: blue; }
+    .seg:hover{background-color: blue;}
+    .ter:hover{background-color: blue;}
+    
