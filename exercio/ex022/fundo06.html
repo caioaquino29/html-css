@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo size</title>
+    <style>  
+    body{
+        height: 97vh;
+        /* Shorthand essa é ordem de cima para baixo.
+        background-color: black;
+        background-image:url(imagens/wallpaper002.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        [background-size: cover ;**** não fuciana em shorthand ***] 
+        background-attachment: fixed; */
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed ;
+        background-size: cover;
+}
+
+
+div{
+
+    background-color: white;
+    margin: auto;
+    width: 500px ;
+    height: 1000px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+ul{ font-size: 1.5em;
+
+}
+strong{font-size:1.2em
+
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Testando Background-size qual melhor adapitação</h1>
+        <p> 
+        <ul>
+            <li>auto: (difinição padrão)  a imagem de fundo será aplicada em seu tamanho original</li>
+            <li>[lenght]px & [length]%: Redimecina a laguura da imagem e faz a altura se adaptar automaticamente. Podemos também informar dua dimensões na sequência ou também usar percentuais.</li>
+            <li>cover: Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, sem nenhum corte.</li>
+            <li>contain: Redimencina aimagem para que ela cubra o contêiner, memos que para isso ocorra alguns eventuais corte.</li>
+    
+        </ul>
+        <strong>*Obs:</strong> Melhor adapitação é <strong>cover</strong> pois ele não corta imagem de fundo e deixa site visualmente mais atraete, a imagem se adapita de forma mais suave e harminica. <br> 
+        
+        ---------------------------------------------------------------------------------------------
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magni temporibus esse ipsa molestias velit. Iste veritatis dolore, praesentium, a vitae, commodi nesciunt ea maxime beatae alias quaerat at fuga!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam deserunt officia? Omnis consequatur necessitatibus hic ipsa sint perferendis architecto doloremque ex nostrum repellendus aliquam, officiis libero, aut adipisci vitae! <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat fugiat perspiciatis suscipit enim in at? Optio quibusdam nisi esse a et. Expedita perspiciatis sit cum nostrum repellendus aspernatur, pariatur incidunt.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nisi veritatis eveniet deserunt, temporibus sit nam illo cum alias perferendis ab provident dignissimos fuga molestias quas iure officiis, magni praesentium?
+        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint fugiat a iure aliquid, ipsam vero facilis optio corporis aperiam obcaecati dolore, omnis repellat accusamus ipsum consectetur odio, eaque itaque magnam!
+
+        </p>
+    </div>
+</body>
+</html>

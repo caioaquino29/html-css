@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar verticalmente o contêiner</title>
+    <style>
+        #principal{ 
+        position: relative;    
+        height: 600px ;
+        background-color: purple;
+        padding: 20px ;
+    background-image: url(imagens/target001.png);
+background-size: 100% 100%
+;}
+        #segundario{
+            background-color: yellow;
+            height: 150px;
+            width: 300px ;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+            background-image: url(imagens/target001.png);
+background-size: 100% 100%
+
+        }
+        img{position: absolute ;
+            left: 65px;
+            top: 20px;
+
+            width: 50%;
+        height: 70%;
+    }
+    </style>
+</head>
+<body>
+<main id="principal">
+    <section id="segundario">
+<img src="https://raw.githubusercontent.com/gustavoguanabara/html-css/master/imagens/mascote.png" alt="Mistura de professor Guanabara com mascote GitHub ...kk">
+    </section>
+</main>
+    
+</body>
+</html>
