@@ -7,34 +7,30 @@
     <title>Espaço Sideral</title>
     
     <style>
-        *{margin: 0px;
-        padding: 0px;}
-       div>img {display: inline-block; max-width:1165px ;
-        min-width:320px ;
-        max-height: 1070px;
-        min-height: 568px;
-        background-color:black;
-    position: relative; ;
-}
-.astronauta{ -moz-box-align: center;
-;
-}
-       div>picture{position: absolute;
-        top: 20%;
-        left: 20%;
-        width: 50%;
-        height: 50%;
-    }
+        
+        body{ height: 97vh;
+            background-image: url(imagens/espaco.jpg);
+        position: relative;}
+    div{ position:absolute;
+          left: 50%;
+          top: 50%;
+        transform: translate(-50%, -50%);}
+        /* img{width: 100%;} */
+        /*  */
+
+     
 
     </style>
 </head>
 <body>
     <div>
-       <img class="espaço" src="imagens/espaco.jpg" alt="Epaço sideral é toda área fisica do Universo.">
+       
         <picture>
-            <source media="(max-width: 200px)" srcset="imagens/astronauta.png">
-            <img class="astronauta" src="imagens/astronauta.png" alt="É astranauta ou seja homem trajado com roupa espacial">
-            
+            <source media="(max-width:400px)" srcset="imagens/astronauta-p.png">
+           
+            <img class="astronauta" src="imagens/astronauta-m.png" alt="É astranauta ou seja homem trajado com roupa espacial">
+           
+
         </picture>
     </div>
     
