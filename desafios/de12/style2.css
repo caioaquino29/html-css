@@ -4,27 +4,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root{ --font01:Verdana, Geneva, Tahoma, sans-serif;
+:root{ 
+--font01:Verdana, Geneva, Tahoma, sans-serif;
 --font02:'Passion One',cursive;
 --font03:'Sriracha', cursive;
 }
 *{ margin: 0px;
 padding: 0px;
 }
-html body{min-height: 100vh; 
+html body{
+min-height: 100vh; 
 background-color: darkgray;
 font-family:var(--font01) ;
 }
-header{ background-color: black;
+header{ 
+background-color: black;
 padding-top:  50px;
 color: white;
 text-align: center;
 }
-header>h1{font-variant: small-caps;
+header>h1{
+font-variant: small-caps;
 font-family: var(--font02);
 font-size: 10vw;
 }
-
+header>p{padding-bottom: 50px;}
 a{
 color: white;    text-decoration: none;
 font-weight: bolder;
@@ -61,7 +65,8 @@ text-shadow: 2px 1px 0px black;
 color: white;
 background-color: rgba(0, 0, 0, 0.422);
 display: inline-block;
-padding: 5px;}
+padding: 5px; 
+}
 header a:hover, footer a:hover{ text-decoration: underline;
 }
 footer{ background-color: black;
