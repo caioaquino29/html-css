@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Colunas </title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{border-collapse: collapse;width: 500px;
+        text-align: center;}
+        td,th{border: 1px solid black;}
+        .cnom{background-color: beige;}
+        .csexIda{background-color: lightgrey;}
+        .cprf{background-color: aquamarine;}
+    </style>
+</head>
+<body>
+    <h1>Personalizando colunas</h1>
+    <table>
+        <colgroup>
+            <col class="cnom">
+            <col class="csexIda" span="2">
+            <col class="cprf">
+        </colgroup>
+        <caption>
+            Profissão
+        </caption>
+        <thead>
+            <tr>
+
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Predo Alves </td>
+                <td>M</td>
+                <td>33</td>
+                <td>Pescador</td>
+
+            </tr>
+            <tr>
+                <td>Marcos Texeira </td>
+                <td>M</td>
+                <td>39</td>
+                <td>Médico</td>
+
+            </tr>
+            <tr>
+                <td>Sara Rosa </td>
+                <td>F</td>
+                <td>25</td>
+                <td>Programador</td>
+
+            </tr>
+            <tr>
+                <td>Gabriela Soares </td>
+                <td>F</td>
+                <td>60</td>
+                <td>Professora</td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    
+</body>
+</html>
